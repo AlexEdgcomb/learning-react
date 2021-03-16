@@ -1,0 +1,49 @@
+body {
+  font-family: Roboto,sans-serif;
+  font-weight: 700;
+}
+
+button {
+  color: #fff;
+  background-color: #f57c00;
+  font-size: 20px;
+  height: 55px;
+  margin-bottom: 4px;
+  width: 55px;
+  padding-left: 2px;
+  padding-right: 2px;
+  transition: background-color .25s ease-out,color .25s ease-out;
+  align-items: center;
+  appearance: none;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  box-sizing: border-box;
+  cursor: pointer;
+  line-height: 1.1;
+  padding: 0 8px;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.binary-number {
+  display: flex;
+}
+
+.bit-container {
+  font-size: 16px;
+  margin-right: 12px;
+  text-align: center;
+}
+
+.decimal-container {
+  align-items: center;
+  margin-left: 32px;
+}
+
+.sum {
+  color: #0288d1;
+  font-size: 44px;
+  text-align: center;
+}
